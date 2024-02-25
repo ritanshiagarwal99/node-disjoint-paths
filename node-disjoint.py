@@ -31,7 +31,23 @@ def read_demands():
     return R
 
 
-def plot_paths(working, backup):
+# Read srg
+def read_srg():
+    filename = 'srg_nodes.txt'
+    fp = open(filename)
+    lines = fp.readlines()
+
+    # Read srg elements from file in the format
+    # "SRG_Number" "node1" "node2"
+    SRG = {}
+    for line in lines:
+        number, *elements = line.split()
+        SRG[number] = list(elements)
+    fp.close()
+    return SRG
+
+
+def plot_paths(working, backup, srg_flag=False):
     # format: list of tuples: [(link1), (link2), ...]
     # (linkA) = (node_i, node_j)
     # --------------------------------------------------------------------
@@ -70,7 +86,10 @@ def plot_paths(working, backup):
     plt.margins(0, 0)
     plt.gca().xaxis.set_major_locator(plt.NullLocator())
     plt.gca().yaxis.set_major_locator(plt.NullLocator())
-    figname = "ilp_result_leh_chennai.png"
+    if srg_flag:
+        figname = "ilp_result_srg_leh_chennai.png"
+    else:
+        figname = "ilp_result_leh_chennai.png"
     plt.savefig(figname)
     plt.show()
 
@@ -78,7 +97,8 @@ def plot_paths(working, backup):
 if __name__ == "__main__":
     D = get_distance(G)
     R = read_demands()
-    distance1, distance2, path1, path2 = optimize_node_disjoint(G, D, R)
+    srg_node = read_srg()
+    distance1, distance2, path1, path2 = optimize_node_disjoint(G, D, R) #, srg_node)
 
     # plot paths for a demand pair
     plot_paths(path1[1], path2[1])

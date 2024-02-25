@@ -1,0 +1,266 @@
+{
+    "nodes": [
+        {
+            "name": "Mumbai",
+            "latitude": 19.11072699388188,
+            "longitude": 72.88185344977347
+        },
+        {
+            "name": "Delhi",
+            "latitude": 28.69308551494359,
+            "longitude": 77.20439597372426
+        },
+        {
+            "name": "Bangalore",
+            "latitude": 12.996612607571366,
+            "longitude": 77.61025944233697
+        },
+        {
+            "name": "Kolkata",
+            "latitude": 22.576307106232964,
+            "longitude": 88.36314088622098
+        },
+        {
+            "name": "Chennai",
+            "latitude": 13.092955374319446,
+            "longitude": 80.26255011873302
+        },
+        {
+            "name": "Hyderabad",
+            "latitude": 17.41555660689049,
+            "longitude": 78.4615843512067
+        },
+        {
+            "name": "Pune",
+            "latitude": 18.530404259734375,
+            "longitude": 73.84921507790239
+        },
+        {
+            "name": "Ahmedabad",
+            "latitude": 23.0290049622844,
+            "longitude": 72.56393094180858
+        },
+        {
+            "name": "Jaipur",
+            "latitude": 26.91963857178101,
+            "longitude": 75.78336055024299
+        },
+        {
+            "name": "Srinagar",
+            "latitude": 30.22659780657135,
+            "longitude": 78.79640223533764
+        },
+        {
+            "name": "Ranchi",
+            "latitude": 23.215485213323483,
+            "longitude": 85.20196830807784
+        },
+        {
+            "name": "Kanpur",
+            "latitude": 26.457624568517712,
+            "longitude": 80.3126335450458
+        },
+        {
+            "name": "Leh",
+            "latitude": 31.58018992499347,
+            "longitude": 77.1670706110867
+        },
+        {
+            "name": "Patna",
+            "latitude": 25.59534322503757,
+            "longitude": 85.13978138403913
+        },
+        {
+            "name": "Jaisalmer",
+            "latitude": 27.10781832371219,
+            "longitude": 70.82775347535582
+        },
+        {
+            "name": "Kohima",
+            "latitude": 25.675021782022302,
+            "longitude": 94.10798459490611
+        },
+        {
+            "name": "Bhopal",
+            "latitude": 23.270707552937584,
+            "longitude": 77.41928103657617
+        },
+        {
+            "name": "Visakhapatnam",
+            "latitude": 17.69550302522387,
+            "longitude": 83.21280945375523
+        },
+        {
+            "name": "Vadodara",
+            "latitude": 22.31257446688578,
+            "longitude": 73.17669113869358
+        },
+        {
+            "name": "Firozabad",
+            "latitude": 27.16119250272216,
+            "longitude": 78.39743161254496
+        }
+    ],
+    "links": [
+        {
+            "node_1": "Leh",
+            "node_2": "Srinagar",
+            "distance": 216.28878839596052
+        },
+        {
+            "node_1": "Srinagar",
+            "node_2": "Delhi",
+            "distance": 229.6500389639082
+        },
+        {
+            "node_1": "Vadodara",
+            "node_2": "Bhopal",
+            "distance": 448.33947990853284
+        },
+        {
+            "node_1": "Kanpur",
+            "node_2": "Firozabad",
+            "distance": 205.74876130148263
+        },
+        {
+            "node_1": "Hyderabad",
+            "node_2": "Bhopal",
+            "distance": 657.2820302859685
+        },
+        {
+            "node_1": "Bhopal",
+            "node_2": "Ranchi",
+            "distance": 796.3927663190822
+        },
+        {
+            "node_1": "Leh",
+            "node_2": "Jaisalmer",
+            "distance": 790.1191267226442
+        },
+        {
+            "node_1": "Hyderabad",
+            "node_2": "Ahmedabad",
+            "distance": 874.9648176241664
+        },
+        {
+            "node_1": "Jaipur",
+            "node_2": "Jaisalmer",
+            "distance": 492.21829150095783
+        },
+        {
+            "node_1": "Patna",
+            "node_2": "Ranchi",
+            "distance": 263.6785484003087
+        },
+        {
+            "node_1": "Firozabad",
+            "node_2": "Delhi",
+            "distance": 206.41413191960777
+        },
+        {
+            "node_1": "Kohima",
+            "node_2": "Kolkata",
+            "distance": 677.2346677480967
+        },
+        {
+            "node_1": "Visakhapatnam",
+            "node_2": "Ranchi",
+            "distance": 645.3681251270071
+        },
+        {
+            "node_1": "Visakhapatnam",
+            "node_2": "Chennai",
+            "distance": 599.6765154844986
+        },
+        {
+            "node_1": "Bangalore",
+            "node_2": "Hyderabad",
+            "distance": 497.4387688453815
+        },
+        {
+            "node_1": "Mumbai",
+            "node_2": "Ranchi",
+            "distance": 1357.1691715203276
+        },
+        {
+            "node_1": "Kohima",
+            "node_2": "Patna",
+            "distance": 900.5018128176409
+        },
+        {
+            "node_1": "Ahmedabad",
+            "node_2": "Jaisalmer",
+            "distance": 484.57262582920225
+        },
+        {
+            "node_1": "Hyderabad",
+            "node_2": "Visakhapatnam",
+            "distance": 505.36078758588826
+        },
+        {
+            "node_1": "Bangalore",
+            "node_2": "Pune",
+            "distance": 732.973331873644
+        },
+        {
+            "node_1": "Mumbai",
+            "node_2": "Pune",
+            "distance": 120.51052969773811
+        },
+        {
+            "node_1": "Delhi",
+            "node_2": "Jaipur",
+            "distance": 241.30209117469545
+        },
+        {
+            "node_1": "Kanpur",
+            "node_2": "Patna",
+            "distance": 492.49331506471515
+        },
+        {
+            "node_1": "Ranchi",
+            "node_2": "Kolkata",
+            "distance": 331.9649999325523
+        },
+        {
+            "node_1": "Jaipur",
+            "node_2": "Bhopal",
+            "distance": 436.5779573354229
+        },
+        {
+            "node_1": "Bangalore",
+            "node_2": "Chennai",
+            "distance": 287.8774585178798
+        },
+        {
+            "node_1": "Kanpur",
+            "node_2": "Hyderabad",
+            "distance": 1019.280476041592
+        },
+        {
+            "node_1": "Ranchi",
+            "node_2": "Kanpur",
+            "distance": 610.8248926663541
+        },
+        {
+            "node_1": "Vadodara",
+            "node_2": "Ahmedabad",
+            "distance": 101.2911534173951
+        },
+        {
+            "node_1": "Mumbai",
+            "node_2": "Vadodara",
+            "distance": 355.81530760671114
+        },
+        {
+            "node_1": "Pune",
+            "node_2": "Bhopal",
+            "distance": 642.8716325438689
+        },
+        {
+            "node_1": "Hyderabad",
+            "node_2": "Chennai",
+            "distance": 515.9264787467758
+        }
+    ]
+}
